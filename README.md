@@ -25,6 +25,10 @@ QuizMaker is a tool for creating quizzes and tests. It allows users to create qu
 - Liquibase (for database versioning)
 - JWT (JSON Web Tokens) for authentication and authorization
 
+## Important Note on Security
+
+For development purposes, private keys are stored in the repository. **This is not a best practice and should not be done in production environments.** In production, use secure methods to store and manage private keys.
+
 ## Running the Project
 
 ### Prerequisites
